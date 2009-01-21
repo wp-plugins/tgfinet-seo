@@ -14,11 +14,11 @@ Override titles, descriptions and keywords with page/post level input for greate
 
 This is a fairly modified version of the [all-in-one-seo-pack](http://wordpress.org/extend/plugins/all-in-one-seo-pack/) for the specific situation of using Wordpress as a CMS tool first and a blog second. We fixed some quirky duplication of title and meta info as well.
 
-**[Download now!](http://www.tgfi.net/plugin/tgfi-seo.zip)**
+**[Download now!](http://downloads.wordpress.org/plugin/tgfinet-seo.zip)**
 
-[Support](http://www.tgfi.net/TGFI-SEO-Plugin/) |
-[Version History](http://www.tgfi.net/TGFI-SEO-Plugin/) |
-[FAQ](http://www.tgfi.net/TGFI-SEO-Plugin/)|
+[Support](http://www.tgfi.net/tgfi-seo-plugin/) |
+[Version History](http://www.tgfi.net/tgfi-seo-plugin/) |
+[FAQ](http://www.tgfi.net/tgfi-seo-plugin/)|
 
 Some features:
 
@@ -27,17 +27,17 @@ Some features:
 * Helps prevent duplicate content issues.
 * Automatically appends tags as keywords when available.
 * Makes sure your keywords are unique.
-* Page and post level settings are kept when upgrading from the all-in-one-seo pack.
+* Page and post level settings are kept when upgrading from the all-in-one-seo pack. You can even downgrade.
 
 == Installation ==
 
 1. Unzip into your `/wp-content/plugins/` directory. Make sure the files are inside the tgfi-seo/ folder.
 1. Activate the plugin through the Wordpress 'Plugins' menu
-1. Visit (*Settings - TGFI.NET SEO*) for Wordpress 2.7 
+1. Visit (*Settings - TGFI.net SEO*) for Wordpress 2.7 
 1. That's it!
 
-Use the built-in one-click updater (*Options - All in One SEO*) or follow the installation steps for manual updates.
+Use the built-in one-click updater (*Options - TGFI.net SEO*) or follow the installation steps for manual updates.
 
 == Frequently Asked Questions ==
 
-Read the **[details](http://www.tgfi.net/TGFI-SEO-Plugin/)** on our site to find help.
+You can learn more about this plugin **[on our website](http://www.tgfi.net/tgfi-seo-plugin/)**.
