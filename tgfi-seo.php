@@ -4,7 +4,7 @@
 Plugin Name: TGFI.net SEO
 Plugin URI: http://www.tgfi.net/TGFI-SEO-Plugin/
 Description: title, description and keyword overrides
-Version: 1.1
+Version: 1.2
 Author: TGFI, Inc. - Greg Benedict
 Author URI: http://www.tgfi.net
 */
@@ -477,7 +477,7 @@ $UTF8_TABLES['strtoupper'] = array(
 
 class TGFI_SEO {
 	
- 	var $version = "1.1";
+ 	var $version = "1.2";
  	
  	/** Max numbers of chars in auto-generated description */
  	var $maximum_description_length = 160;
@@ -892,11 +892,16 @@ class TGFI_SEO {
 		// simple tagging support
 		global $STagging;
 				
+				
+				
+		// } else if (is_home()) {
+			// $title = get_option('blogname');
+			// $title = get_the_title(get_option('page_for_posts'))
 		if (is_front_page()) {
 			
 			$title = $this->internationalize(get_post_meta($post->ID, "title", true));
 			if (!$title) {
-				$title = $this->internationalize(get_post_meta($post->ID, "title_tag", true));
+				$title = $this->internationalize(get_the_title(get_option('page_on_front')));
 				if (!$title) {
 					$title = $this->internationalize(wp_title('', false));
 				}
@@ -908,7 +913,7 @@ class TGFI_SEO {
 			
 			$title = $this->internationalize(get_post_meta($post->ID, "title", true));
 			if (!$title) {
-				$title = $this->internationalize(get_post_meta($post->ID, "title_tag", true));
+				$title = $this->internationalize(get_the_title(get_option('page_for_posts')));
 				if (!$title) {
 					$title = $this->internationalize(wp_title('', false));
 				}
