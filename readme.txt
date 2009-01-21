@@ -14,11 +14,7 @@ Override titles, descriptions and keywords with page/post level input for greate
 
 This is a fairly modified version of the [all-in-one-seo-pack](http://wordpress.org/extend/plugins/all-in-one-seo-pack/) for the specific situation of using Wordpress as a CMS tool first and a blog second. We fixed some quirky duplication of title and meta info as well.
 
-**[Download now!](http://downloads.wordpress.org/plugin/tgfinet-seo.zip)**
-
-[Support](http://www.tgfi.net/tgfi-seo-plugin/) |
-[Version History](http://www.tgfi.net/tgfi-seo-plugin/) |
-[FAQ](http://www.tgfi.net/tgfi-seo-plugin/)|
+**[Download the latest now!](http://downloads.wordpress.org/plugin/tgfinet-seo.zip)**
 
 Some features:
 
@@ -28,6 +24,8 @@ Some features:
 * Automatically appends tags as keywords when available.
 * Makes sure your keywords are unique.
 * Page and post level settings are kept when upgrading from the all-in-one-seo pack. You can even downgrade.
+
+You can learn more about the [TGFI.net SEO plugin at our website](http://www.tgfi.net/tgfi-seo-plugin/).
 
 == Installation ==
 
