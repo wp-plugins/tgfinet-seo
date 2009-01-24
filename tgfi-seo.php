@@ -2,9 +2,9 @@
 
 /*
 Plugin Name: TGFI.net SEO
-Plugin URI: http://www.tgfi.net/TGFI-SEO-Plugin/
+Plugin URI: http://www.tgfi.net/tgfi-seo-plugin/
 Description: title, description and keyword overrides
-Version: 1.2
+Version: 1.3
 Author: TGFI, Inc. - Greg Benedict
 Author URI: http://www.tgfi.net
 */
@@ -477,7 +477,7 @@ $UTF8_TABLES['strtoupper'] = array(
 
 class TGFI_SEO {
 	
- 	var $version = "1.2";
+ 	var $version = "1.3";
  	
  	/** Max numbers of chars in auto-generated description */
  	var $maximum_description_length = 160;
@@ -506,7 +506,7 @@ class TGFI_SEO {
  	var $upgrade_error;
  	
  	/** Which zip to download in order to upgrade .*/
- 	var $upgrade_url = 'http://www.tgfi.net/plugins/tgfi-seo.zip';
+ 	var $upgrade_url = 'http://downloads.wordpress.org/plugin/tgfinet-seo.zip';
  	
  	/** Filename of log file. */
  	var $log_file;
@@ -1419,7 +1419,7 @@ class TGFI_SEO {
 		<table class="editform" width="100%" cellspacing="2" cellpadding="5">
 		<tr>
 		<th width="33%" scope="row" valign="top">
-		<a href="http://www.tgfi.net/TGFI-SEO-Plugin/"><?php _e('TGFI SEO', 'TGFI_SEO') ?></a>
+		<a href="http://www.tgfi.net/tgfi-seo-plugin/"><?php _e('TGFI SEO', 'TGFI_SEO') ?></a>
 		</th>
 		</tr>
 		<tr>
