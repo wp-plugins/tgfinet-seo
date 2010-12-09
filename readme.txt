@@ -38,4 +38,4 @@ Use the built-in one-click updater (*Options - TGFI.net SEO*) or follow the inst
 
 == Frequently Asked Questions ==
 
-You can learn more about this plugin **[on our website](http://www.tgfi.net/tgfi-seo-plugin/)**.
+You can learn more about this plugin on our **[TGFI Web Design and Development](http://www.tgfi.net/tgfi-seo-plugin/)** website.
