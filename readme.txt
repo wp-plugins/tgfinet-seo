@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=gbene
 Tags: seo,search engine optimization,cms,google,yahoo,msn,meta,meta keywords,meta description,title,post,posts,plugin
 Requires at least: 2.7
 Tested up to: 3.0.3
-Stable tag: trunk
+Stable tag: 1.5
 
 Override titles, descriptions and keywords with page/post level input. Designed for use with Wordpress as a CMS with the blog not on the homepage.
 
