@@ -4,7 +4,7 @@
 Plugin Name: TGFI.net SEO
 Plugin URI: http://www.tgfi.net/tgfi-seo-plugin/
 Description: title, description and keyword overrides
-Version: 1.3
+Version: 1.4
 Author: TGFI, Inc. - Greg Benedict
 Author URI: http://www.tgfi.net
 */
@@ -477,7 +477,7 @@ $UTF8_TABLES['strtoupper'] = array(
 
 class TGFI_SEO {
 	
- 	var $version = "1.3";
+ 	var $version = "1.4";
  	
  	/** Max numbers of chars in auto-generated description */
  	var $maximum_description_length = 160;
